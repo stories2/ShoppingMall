@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="083de25c-d56f-4b99-b9ef-d6fa35ed9283" name="projectPasswd" linkedPackageId="7dcb5e3e-f6a1-4f5d-b03d-e2a2dbd28994" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="cf472767-a384-4b38-a8e4-2dac0f35f25c">
+      <profileInstance Id="0be74f38-1760-4ad7-91a3-938f4f4bf7ca" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e3ac8115-e5c0-4c71-a8b4-e30777d236da">
+      <profileInstance Id="31dc0f75-35cb-4025-98e4-4701440c7553" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="e66d1d7f-f8bc-48c7-a2da-dca6e0f391ff" name="projectPasswd" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="c7991802-9ccd-495a-841a-69a6177b5852" />
+        <fragments>
+          <behaviorExecutionSpecification Id="56eea07d-22ec-4e01-af40-bed8693f5f4a" name="BehaviorExecutionSpecification1">
+            <elementDefinition Id="44fe6f6a-cfc9-4b71-a362-f9a8d912cfa0" />
+            <coveredLifelines>
+              <lifelineMoniker Id="291d64fd-ab79-44fc-8a34-68cbcd488c1c" LastKnownName="아이디 찾기" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="86abc0e7-7c3f-463f-a200-44ce0168e4a0" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="f2fa11c1-b9ea-4664-965b-0e9b7a23596e" LastKnownName="ExecutionOccurrenceSpecification1" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="aa80787b-54d9-459e-b2e6-052b5fef3e52" LastKnownName="MessageOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="470c1396-28ef-4198-97fa-169ae53c2bb4" LastKnownName="MessageOccurrenceSpecification4" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="f2fa11c1-b9ea-4664-965b-0e9b7a23596e" name="ExecutionOccurrenceSpecification1">
+            <elementDefinition Id="f718c594-7c44-4d58-a67b-0f7ec23ed8d0" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b66c5102-bace-444f-8dea-f4e99b41ab9b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="291d64fd-ab79-44fc-8a34-68cbcd488c1c" LastKnownName="아이디 찾기" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="9e51ac0a-2982-4523-803c-e2e468a99110" name="MessageOccurrenceSpecification1">
+            <elementDefinition Id="cd65c812-008a-43da-95ea-414df414b111" />
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="aa80787b-54d9-459e-b2e6-052b5fef3e52" name="MessageOccurrenceSpecification2">
+            <elementDefinition Id="26b33fdd-807b-443e-96fb-84ffa1ba760c" />
+            <covered>
+              <lifelineMoniker Id="291d64fd-ab79-44fc-8a34-68cbcd488c1c" LastKnownName="아이디 찾기" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="58c01dbd-0207-49fb-aa70-485209daf1e1" name="BehaviorExecutionSpecification2">
+            <elementDefinition Id="95bc442a-92bb-41b3-9f80-d325139ac8e9" />
+            <coveredLifelines>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="8700c0c6-2bba-454f-8361-f082ce13950a" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="74e246b5-7a48-4039-b90d-9091005a36c0" LastKnownName="ExecutionOccurrenceSpecification3" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4cc88135-7093-4d31-80b0-b9848ae12c39" LastKnownName="MessageOccurrenceSpecification5" />
+              <messageOccurrenceSpecificationMoniker Id="01bdd059-3b4e-4727-a00a-b234e67258e0" LastKnownName="MessageOccurrenceSpecification6" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="74e246b5-7a48-4039-b90d-9091005a36c0" name="ExecutionOccurrenceSpecification3">
+            <elementDefinition Id="4b706ac1-11e0-431f-97a4-781401b1c4e9" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f959c727-ba0b-4dba-b2bd-945bca45cf6c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="470c1396-28ef-4198-97fa-169ae53c2bb4" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="ab6cd77b-7b8d-4e5c-b1be-269837c41ae7" />
+            <covered>
+              <lifelineMoniker Id="291d64fd-ab79-44fc-8a34-68cbcd488c1c" LastKnownName="아이디 찾기" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4cc88135-7093-4d31-80b0-b9848ae12c39" name="MessageOccurrenceSpecification5">
+            <elementDefinition Id="b03392b4-efd9-499d-8bb1-4d610315ed16" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="86abc0e7-7c3f-463f-a200-44ce0168e4a0" name="ExecutionOccurrenceSpecification2">
+            <elementDefinition Id="dc0b10ca-d37d-4292-9161-8cf793f894cf" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4aad19fe-33de-4ffe-bf01-be26bb79086e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="291d64fd-ab79-44fc-8a34-68cbcd488c1c" LastKnownName="아이디 찾기" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="051cc1ff-f364-4bed-84ef-2352b8b915e1" name="BehaviorExecutionSpecification3">
+            <elementDefinition Id="75222a91-381c-497b-8c24-81037b375bb8" />
+            <coveredLifelines>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="43e5ed56-67f5-4c1e-b3b4-ef4c0712003e" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="f565d3c8-d2c1-4e24-b511-5f8887bcfe13" LastKnownName="ExecutionOccurrenceSpecification5" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="64dc84e8-40f7-4555-8fe1-7ea7be8c5956" LastKnownName="MessageOccurrenceSpecification7" />
+              <messageOccurrenceSpecificationMoniker Id="6f0f26b0-e643-4ad0-8dfe-ac8e824d2379" LastKnownName="MessageOccurrenceSpecification12" />
+              <messageOccurrenceSpecificationMoniker Id="dd63c481-f64b-477e-9743-36cca77ee91b" LastKnownName="MessageOccurrenceSpecification15" />
+              <messageOccurrenceSpecificationMoniker Id="be1aa2ee-20ef-46bd-b8b5-a328c82a8053" LastKnownName="MessageOccurrenceSpecification24" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="f565d3c8-d2c1-4e24-b511-5f8887bcfe13" name="ExecutionOccurrenceSpecification5">
+            <elementDefinition Id="7b346ceb-4a0d-4655-9ddb-2b31584cb569" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="319b1853-3090-44da-8410-95ee212cdd3b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="01bdd059-3b4e-4727-a00a-b234e67258e0" name="MessageOccurrenceSpecification6">
+            <elementDefinition Id="7cc4130e-5a68-4f1c-919b-26435eafabea" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="64dc84e8-40f7-4555-8fe1-7ea7be8c5956" name="MessageOccurrenceSpecification7">
+            <elementDefinition Id="9854962a-6f81-4096-9739-ca05750b9118" />
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="8700c0c6-2bba-454f-8361-f082ce13950a" name="ExecutionOccurrenceSpecification4">
+            <elementDefinition Id="b6afec1d-c9b0-4fb0-abda-0c734f6066a9" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="2cce443b-148c-47bd-bb44-e5b48f80ef51" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="37279c9b-6239-4e53-8580-85c281f52678" name="BehaviorExecutionSpecification6">
+            <elementDefinition Id="753f7364-2ca4-43b6-ae29-3b7635b27e78" />
+            <coveredLifelines>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="90192799-15da-4683-a4e4-9f342536cc41" LastKnownName="ExecutionOccurrenceSpecification12" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="3cdc802c-2c46-4c59-84b1-56a9920dee3b" LastKnownName="ExecutionOccurrenceSpecification11" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4837dbfd-895e-47d1-a248-68fbe27a9842" LastKnownName="MessageOccurrenceSpecification13" />
+              <messageOccurrenceSpecificationMoniker Id="2118a510-70a1-4b93-970c-313c0765737f" LastKnownName="MessageOccurrenceSpecification18" />
+              <executionOccurrenceSpecificationMoniker Id="e66fcb28-230d-459c-b4ef-fb94364b8b8a" LastKnownName="ExecutionOccurrenceSpecification15" />
+              <executionOccurrenceSpecificationMoniker Id="ccbcc389-bbce-4e42-bc84-cfd45af81a32" LastKnownName="ExecutionOccurrenceSpecification16" />
+              <messageOccurrenceSpecificationMoniker Id="666962e2-0fd6-408e-8303-d296d8bdf468" LastKnownName="MessageOccurrenceSpecification14" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="3cdc802c-2c46-4c59-84b1-56a9920dee3b" name="ExecutionOccurrenceSpecification11">
+            <elementDefinition Id="fbe1f3e2-069a-4516-8fa5-ace630df3305" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="73667525-7179-44c4-b244-30d62c1ff6b7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6f0f26b0-e643-4ad0-8dfe-ac8e824d2379" name="MessageOccurrenceSpecification12">
+            <elementDefinition Id="3f91272e-274c-486a-98ab-45b781e2a336" />
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4837dbfd-895e-47d1-a248-68fbe27a9842" name="MessageOccurrenceSpecification13">
+            <elementDefinition Id="88457211-ecd6-4347-8567-a52db7feae22" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2118a510-70a1-4b93-970c-313c0765737f" name="MessageOccurrenceSpecification18">
+            <elementDefinition Id="80c449c1-fa85-470c-ad1e-7363204459bc" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="349d5df8-30a2-403c-90d6-d04c62405ef0" name="BehaviorExecutionSpecification8">
+            <elementDefinition Id="d5e500f2-8f5e-4625-9e8d-331438721b6d" />
+            <coveredLifelines>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="ccbcc389-bbce-4e42-bc84-cfd45af81a32" LastKnownName="ExecutionOccurrenceSpecification16" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="e66fcb28-230d-459c-b4ef-fb94364b8b8a" LastKnownName="ExecutionOccurrenceSpecification15" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="6eeb2051-5dfb-486e-b49f-abe4e5fcd4d9" LastKnownName="MessageOccurrenceSpecification19" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="e66fcb28-230d-459c-b4ef-fb94364b8b8a" name="ExecutionOccurrenceSpecification15">
+            <elementDefinition Id="2fc68e53-9f60-43a8-8616-5447eba52550" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e5559466-155b-4e58-bf44-54c4efa7635e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6eeb2051-5dfb-486e-b49f-abe4e5fcd4d9" name="MessageOccurrenceSpecification19">
+            <elementDefinition Id="5cc645e6-1159-4873-a1ef-47f8805d1841" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="ccbcc389-bbce-4e42-bc84-cfd45af81a32" name="ExecutionOccurrenceSpecification16">
+            <elementDefinition Id="418e85aa-0a34-4d3e-a457-ec2f2b86956f" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3e70bb0e-2d94-4fcf-bf44-5d7b509b72ea" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="666962e2-0fd6-408e-8303-d296d8bdf468" name="MessageOccurrenceSpecification14">
+            <elementDefinition Id="700fb312-c058-47de-9dfc-a140d2ec7f31" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="dd63c481-f64b-477e-9743-36cca77ee91b" name="MessageOccurrenceSpecification15">
+            <elementDefinition Id="4c45ffff-8a08-4952-ae3b-33a3b5fec6e4" />
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="90192799-15da-4683-a4e4-9f342536cc41" name="ExecutionOccurrenceSpecification12">
+            <elementDefinition Id="89105b7b-dff8-418b-a7d2-3d08c084a8ae" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a7adbdf5-d7ab-4d58-a3e2-654b007ecb13" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="84f992e3-dc70-468c-8816-44947957f032" name="BehaviorExecutionSpecification10">
+            <elementDefinition Id="5eb051a1-8e4c-4213-aa51-b13875e34eb8" />
+            <coveredLifelines>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="60875e54-5ad1-4310-9654-af15d330d54c" LastKnownName="ExecutionOccurrenceSpecification20" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="dd008c50-077d-43a5-9a9a-58a9e5a5e4a0" LastKnownName="ExecutionOccurrenceSpecification19" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f646ba21-e893-4fe7-8bc8-c9b37a763429" LastKnownName="MessageOccurrenceSpecification25" />
+              <messageOccurrenceSpecificationMoniker Id="1bfa3ab2-5464-4b64-bcdd-1e694dc8a5ff" LastKnownName="MessageOccurrenceSpecification26" />
+              <executionOccurrenceSpecificationMoniker Id="49eba130-892f-401c-ad55-fdfc51b4bdda" LastKnownName="ExecutionOccurrenceSpecification21" />
+              <executionOccurrenceSpecificationMoniker Id="58aab38a-665e-4b1f-8362-371a9b20bdd7" LastKnownName="ExecutionOccurrenceSpecification22" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="dd008c50-077d-43a5-9a9a-58a9e5a5e4a0" name="ExecutionOccurrenceSpecification19">
+            <elementDefinition Id="8c07f92f-d150-40c5-9f30-d5ed74d035f8" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="90454ba5-2456-4278-b5eb-1a6fe5af46c2" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="be1aa2ee-20ef-46bd-b8b5-a328c82a8053" name="MessageOccurrenceSpecification24">
+            <elementDefinition Id="5b34c355-0f68-463b-89a2-dfa42ef240d8" />
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f646ba21-e893-4fe7-8bc8-c9b37a763429" name="MessageOccurrenceSpecification25">
+            <elementDefinition Id="4a234b9a-b25a-4796-8f14-acda714e11ba" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="43e5ed56-67f5-4c1e-b3b4-ef4c0712003e" name="ExecutionOccurrenceSpecification6">
+            <elementDefinition Id="d020975e-1955-4449-9616-a0c5682067d0" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9e01e612-9f62-4c60-9736-ea5134c13b37" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" LastKnownName="사용자" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1bfa3ab2-5464-4b64-bcdd-1e694dc8a5ff" name="MessageOccurrenceSpecification26">
+            <elementDefinition Id="5cc3864e-a02a-4c04-849f-848aeb65dcab" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="f7e2f370-153a-4eea-92fe-02940abd6025" name="BehaviorExecutionSpecification11">
+            <elementDefinition Id="626abd39-cb5b-4f08-aacc-584f8183d782" />
+            <coveredLifelines>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="58aab38a-665e-4b1f-8362-371a9b20bdd7" LastKnownName="ExecutionOccurrenceSpecification22" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="49eba130-892f-401c-ad55-fdfc51b4bdda" LastKnownName="ExecutionOccurrenceSpecification21" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="aa9a039d-61a0-4173-acc2-1acf0c49ee17" LastKnownName="MessageOccurrenceSpecification27" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="49eba130-892f-401c-ad55-fdfc51b4bdda" name="ExecutionOccurrenceSpecification21">
+            <elementDefinition Id="aa024fce-92f1-4ce5-a2d9-157d0665cff2" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9f892251-7e5b-404e-a5f3-90d88bb32450" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="aa9a039d-61a0-4173-acc2-1acf0c49ee17" name="MessageOccurrenceSpecification27">
+            <elementDefinition Id="f23aede4-7fa5-41fc-a9f2-871051e18fde" />
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="58aab38a-665e-4b1f-8362-371a9b20bdd7" name="ExecutionOccurrenceSpecification22">
+            <elementDefinition Id="44625767-d960-4ba5-b6d9-10d0bdac705e" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="066c92fa-c6f6-40de-b686-70ee181aba50" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="60875e54-5ad1-4310-9654-af15d330d54c" name="ExecutionOccurrenceSpecification20">
+            <elementDefinition Id="e4b17a1a-5047-4f6e-9813-df71d3f4907e" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ceb1896c-59cf-4df6-b73e-bf3d23bec111" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" LastKnownName="정보 관리 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="0cd63e5d-7386-4e0c-9798-2ef04cd0c5ed" name="사용자" isActor="false" lifelineDisplayName="‎사용자‎">
+            <elementDefinition Id="df483394-f0bc-44ab-bc3a-d95fb27f18a8" />
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="9e51ac0a-2982-4523-803c-e2e468a99110" LastKnownName="MessageOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="f565d3c8-d2c1-4e24-b511-5f8887bcfe13" LastKnownName="ExecutionOccurrenceSpecification5" />
+              <executionOccurrenceSpecificationMoniker Id="43e5ed56-67f5-4c1e-b3b4-ef4c0712003e" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="291d64fd-ab79-44fc-8a34-68cbcd488c1c" name="아이디 찾기" isActor="false" lifelineDisplayName="‎아이디 찾기‎">
+            <elementDefinition Id="e1a1d7d1-a9ec-48a5-a975-9c8fbdca5428" />
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="f2fa11c1-b9ea-4664-965b-0e9b7a23596e" LastKnownName="ExecutionOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="86abc0e7-7c3f-463f-a200-44ce0168e4a0" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="db9080e0-a3d1-49dc-8252-2e296c3d5e46" name="정보 관리 시스템" isActor="false" lifelineDisplayName="‎정보 관리 시스템‎">
+            <elementDefinition Id="4b5122fc-8cf5-4e5a-aba6-c7a25f1724a1" />
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="74e246b5-7a48-4039-b90d-9091005a36c0" LastKnownName="ExecutionOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="8700c0c6-2bba-454f-8361-f082ce13950a" LastKnownName="ExecutionOccurrenceSpecification4" />
+              <executionOccurrenceSpecificationMoniker Id="3cdc802c-2c46-4c59-84b1-56a9920dee3b" LastKnownName="ExecutionOccurrenceSpecification11" />
+              <executionOccurrenceSpecificationMoniker Id="90192799-15da-4683-a4e4-9f342536cc41" LastKnownName="ExecutionOccurrenceSpecification12" />
+              <executionOccurrenceSpecificationMoniker Id="dd008c50-077d-43a5-9a9a-58a9e5a5e4a0" LastKnownName="ExecutionOccurrenceSpecification19" />
+              <executionOccurrenceSpecificationMoniker Id="60875e54-5ad1-4310-9654-af15d330d54c" LastKnownName="ExecutionOccurrenceSpecification20" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="2c3c3404-79bd-4547-8876-4fc74e2becbb" name="사용자 정보" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <elementDefinition Id="7a73b7ad-44db-48d1-9a4e-100dee4627b7" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="9e51ac0a-2982-4523-803c-e2e468a99110" LastKnownName="MessageOccurrenceSpecification1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="aa80787b-54d9-459e-b2e6-052b5fef3e52" LastKnownName="MessageOccurrenceSpecification2" />
+            </receiveEvent>
+          </message>
+          <message Id="84def284-6c75-49bf-b8f4-44953af50fbe" name="해당 정보 조회" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <elementDefinition Id="58e730ba-ac35-4d0c-8680-0b5ed826cd89" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="470c1396-28ef-4198-97fa-169ae53c2bb4" LastKnownName="MessageOccurrenceSpecification4" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4cc88135-7093-4d31-80b0-b9848ae12c39" LastKnownName="MessageOccurrenceSpecification5" />
+            </receiveEvent>
+          </message>
+          <message Id="6e9d5268-f960-45c7-9177-fbba1e5ce0ef" name="아이디 전달" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <elementDefinition Id="4283a9eb-99d3-4825-9a8f-6bf4de56eac0" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="01bdd059-3b4e-4727-a00a-b234e67258e0" LastKnownName="MessageOccurrenceSpecification6" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="64dc84e8-40f7-4555-8fe1-7ea7be8c5956" LastKnownName="MessageOccurrenceSpecification7" />
+            </receiveEvent>
+          </message>
+          <message Id="e9d3ac19-2a81-47cf-936c-09faea7016a1" name="[비밀번호 요청] 비밀번호 초기화" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="dff09660-4e6a-47f5-b71a-64f5b4f0b7fd" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6f0f26b0-e643-4ad0-8dfe-ac8e824d2379" LastKnownName="MessageOccurrenceSpecification12" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4837dbfd-895e-47d1-a248-68fbe27a9842" LastKnownName="MessageOccurrenceSpecification13" />
+            </receiveEvent>
+          </message>
+          <message Id="3cd6f636-38bd-4a90-9a17-7e87697d8764" name="비밀번호 초기화 대기" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true">
+            <elementDefinition Id="f60248c0-146e-43b5-9d91-945d27b5d56f" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="2118a510-70a1-4b93-970c-313c0765737f" LastKnownName="MessageOccurrenceSpecification18" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="6eeb2051-5dfb-486e-b49f-abe4e5fcd4d9" LastKnownName="MessageOccurrenceSpecification19" />
+            </receiveEvent>
+          </message>
+          <message Id="2e040c13-c565-49b8-b328-e93c7288739f" name="메일 전달" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="19bcf825-1378-4ea5-9528-7abf2ab8c8ac" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="666962e2-0fd6-408e-8303-d296d8bdf468" LastKnownName="MessageOccurrenceSpecification14" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="dd63c481-f64b-477e-9743-36cca77ee91b" LastKnownName="MessageOccurrenceSpecification15" />
+            </receiveEvent>
+          </message>
+          <message Id="b3d7d4b5-78a4-4c79-941c-c09844249c9e" name="[비밀번호 생각남] 비밀번호 복원" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <elementDefinition Id="8b70faf6-f7c1-49db-83ac-750860cb49a6" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="be1aa2ee-20ef-46bd-b8b5-a328c82a8053" LastKnownName="MessageOccurrenceSpecification24" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f646ba21-e893-4fe7-8bc8-c9b37a763429" LastKnownName="MessageOccurrenceSpecification25" />
+            </receiveEvent>
+          </message>
+          <message Id="26b85de1-774a-4305-8315-2b28650b6b1a" name="비밀번호 초기회 철회" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true">
+            <elementDefinition Id="0c9e0fa8-b105-4c27-8711-0786dd49ba34" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="1bfa3ab2-5464-4b64-bcdd-1e694dc8a5ff" LastKnownName="MessageOccurrenceSpecification26" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="aa9a039d-61a0-4173-acc2-1acf0c49ee17" LastKnownName="MessageOccurrenceSpecification27" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b66c5102-bace-444f-8dea-f4e99b41ab9b" name="ExecutionEvent">
+        <elementDefinition Id="a1062652-25b0-44e7-a7c9-7e50e7b3cc13" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4aad19fe-33de-4ffe-bf01-be26bb79086e" name="ExecutionEvent">
+        <elementDefinition Id="b727069b-f68f-4bea-91fa-2457195a4761" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f959c727-ba0b-4dba-b2bd-945bca45cf6c" name="ExecutionEvent">
+        <elementDefinition Id="c91686a5-462e-4e27-9a82-2bffaea40fd6" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="2cce443b-148c-47bd-bb44-e5b48f80ef51" name="ExecutionEvent">
+        <elementDefinition Id="eea3a66f-08fc-4019-bb20-8cfe6d0d38f2" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="319b1853-3090-44da-8410-95ee212cdd3b" name="ExecutionEvent">
+        <elementDefinition Id="f86ae4a0-d426-4d3d-b172-98e197ca12e1" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9e01e612-9f62-4c60-9736-ea5134c13b37" name="ExecutionEvent">
+        <elementDefinition Id="e1b06699-29cc-4193-9a06-59145f77c780" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="73667525-7179-44c4-b244-30d62c1ff6b7" name="ExecutionEvent">
+        <elementDefinition Id="e539fd11-e14a-48be-9b29-e96344703ea3" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a7adbdf5-d7ab-4d58-a3e2-654b007ecb13" name="ExecutionEvent">
+        <elementDefinition Id="ee0bfb89-fefb-47fe-9749-443cb3c0c49a" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e5559466-155b-4e58-bf44-54c4efa7635e" name="ExecutionEvent">
+        <elementDefinition Id="bd99c572-c229-4a30-b082-26887f5864bc" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3e70bb0e-2d94-4fcf-bf44-5d7b509b72ea" name="ExecutionEvent">
+        <elementDefinition Id="2c728bc7-eb1d-405f-8ef7-689c699e1e3e" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="90454ba5-2456-4278-b5eb-1a6fe5af46c2" name="ExecutionEvent">
+        <elementDefinition Id="da67d1b6-3e52-48cd-9173-2e96e220d792" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ceb1896c-59cf-4df6-b73e-bf3d23bec111" name="ExecutionEvent">
+        <elementDefinition Id="73467167-ff37-4e0c-ac81-1dcd0770a4b3" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9f892251-7e5b-404e-a5f3-90d88bb32450" name="ExecutionEvent">
+        <elementDefinition Id="ca4ab687-eb1c-4e85-ae97-33cbb2c8c699" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="066c92fa-c6f6-40de-b686-70ee181aba50" name="ExecutionEvent">
+        <elementDefinition Id="ecb8a48b-971d-48a9-94bc-cdb70c2036b5" />
+      </executionEvent>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="7dcb5e3e-f6a1-4f5d-b03d-e2a2dbd28994" name="distributionLimit">
+    <elementDefinition Id="b90fcaa0-e385-4568-b06c-659f04fdff04" />
+  </package>
+</SequenceDesignerModel>

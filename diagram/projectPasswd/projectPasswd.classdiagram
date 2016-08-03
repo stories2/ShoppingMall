@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="95df2392-2943-40a4-93c7-6d8169743338" name="projectPasswd" linkedPackageId="a8f3b220-2546-49d3-9b79-4a8fd150b937" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="e0bf86ae-e166-414e-868d-67f5870c071e">
+      <profileInstance Id="2451f97b-f7d7-4b0f-918b-897766bdecd6" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9a88c8b6-0263-4453-b539-a2a1f066697e">
+      <profileInstance Id="594f71bb-aa83-44c2-bdd1-7ed8957c8bcb" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d2ff7935-eaa1-4735-83e1-8b6728d913f7" name="아이디 찾기 뷰" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3c99cf74-b668-4065-a36c-0d0dc1e4bff1" />
+        <targetEnds>
+          <association Id="45e94b8b-bafa-418e-a22b-b02c6b8e41fc" isDerived="false" sourceEndRoleName="아이디 찾기 뷰" targetEndRoleName="사용자 목록" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5eb0a836-3d4f-4a42-9970-fdcf2ae67bf7" LastKnownName="사용자 목록" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8cf39707-abba-4605-b6d5-fbc2f1a4fc93" name="아이디 찾기 뷰" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f4c82846-bcf8-440d-8932-b2affe4685e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0242da92-84fd-47f4-85f9-2de050e843b6" name="사용자 목록" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3d4c1ff3-e22d-468b-bd4f-c55d09b61384" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e7e98e23-92f9-415c-ad3d-d99ebbc4bd82" />
+          </association>
+          <association Id="2aa81026-0694-41ea-99fb-7b96b5653759" isDerived="false" sourceEndRoleName="아이디 찾기 뷰" targetEndRoleName="사용자 정보" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ee0dc38b-b9ac-4e1d-9fab-947b618cfd65" LastKnownName="사용자 정보" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="869e4a50-2a95-486b-8c8c-7b4c05ec3009" name="아이디 찾기 뷰" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8fde217f-63ce-4ee3-a6bc-ea3216461a30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="21760e9b-1e19-4931-a59a-4042fb97bb07" name="사용자 정보" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a45a9a25-1760-4b90-945f-dc1aef9fb6c9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ba7c437-a784-4a59-b0f1-b2f83be75777" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="03ba56e9-3a3f-490c-8c6f-90e3bfcbcc44" name="사용자가 입력한 정보" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="79e47019-5977-4323-9ce6-254207d3f1d7" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="1beb7b61-8d8c-40a9-ba79-2debb9ce3aaf" name="정보 전달" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="de66f221-fb9e-4488-811e-ec2cbcce1dbb" />
+          </operation>
+          <operation Id="5e746ce4-e9e0-4a4b-add4-ae792753385c" name="비밀번호 초기화" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7b805c7c-e148-46bd-a90b-1ebd3958f4ef" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5eb0a836-3d4f-4a42-9970-fdcf2ae67bf7" name="사용자 목록" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e8695628-6f92-4baf-8b4f-0ad5d4d3107f" />
+        <ownedAttributesInternal>
+          <property Id="f1d51a32-876d-4f81-84fc-408be5246769" name="사용자" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a5c8cc8d-0b30-47b2-93c7-35e6a7baaeeb" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="544e8f7f-4d60-48ad-a1a7-6be3ef457992" name="사용자 조회" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="11898a0f-19e9-4a36-a2a3-6004c37af709" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e13486c4-e10d-44e7-9813-750be9306d0c" name="사용자가 입력한 정보" direction="In" isUnique="false">
+                  <elementDefinition Id="96d881bc-207b-4a22-b525-f2a15d712b12" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ee0dc38b-b9ac-4e1d-9fab-947b618cfd65" name="사용자 정보" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3be75873-9b65-4125-82c1-35f1ed30ef3b" />
+        <suppliersInternal>
+          <dependency Id="2d955bd0-12b2-4242-afdd-35b3ee0383c2">
+            <classMoniker Id="5eb0a836-3d4f-4a42-9970-fdcf2ae67bf7" LastKnownName="사용자 목록" />
+            <elementDefinition Id="de1322c1-3f8a-4184-97e3-6c96c661f8b1" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="a51d661a-83f7-4a7e-a6e7-f8327b84b96b" isDerived="false" sourceEndRoleName="사용자 정보" targetEndRoleName="메일" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5fc3a1e8-bcb3-4729-89f9-f1c16c6526e8" LastKnownName="메일" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="83a971e5-e7c4-4638-91a5-d6dacc1d1a7f" name="사용자 정보" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eb1f7e69-00c1-4275-a343-494ee3521981" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="64876f78-28b7-4f49-bd85-2ba9af3affa6" name="메일" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4dc3f283-e13b-4593-abf9-c8f5bed56bc4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2076571a-3a3c-4f42-8cee-bd8125d7dc80" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="a0e6c37f-dc22-4f6f-9d35-70ff0badb4b1" name="아이디" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1ded1550-c0d4-48c9-95d4-00fc46f19340" />
+          </property>
+          <property Id="f2e73bc4-895f-4c5d-a4cf-bd55d588a992" name="비밀번호" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b16d39cb-e9fa-44c8-ab93-402bd6d69457" />
+          </property>
+          <property Id="9fa88de4-6647-4262-9403-c13083631035" name="사용자 정보" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f54e1b84-2c90-46e8-b529-a31569ef949b" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8b451c91-0840-4323-b679-d2ed98abc8b6" name="비밀번호 초기화" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4aba79fc-b402-462a-9da2-5021be10832c" />
+          </operation>
+          <operation Id="7bc05a1e-1918-4a66-bb23-df5b0d298901" name="비밀번호 복원" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2f5f1336-b9ad-4e2d-aefe-2896ffc7f190" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5fc3a1e8-bcb3-4729-89f9-f1c16c6526e8" name="메일" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="03b10609-4687-4407-a0c9-248cf9da893f" />
+        <targetEnds>
+          <association Id="3853bb02-2be4-4f6a-a4b6-0f41e1ca26c5" isDerived="false" sourceEndRoleName="메일" targetEndRoleName="사용자 정보" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ee0dc38b-b9ac-4e1d-9fab-947b618cfd65" LastKnownName="사용자 정보" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f76a9b7e-f79c-4b9a-b0e8-2d07a3b0608f" name="메일" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="20514cdd-5dde-496e-8628-cd37cbaa9f6b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d4461adb-dece-4b66-b515-5391cb2832bf" name="사용자 정보" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5eae1378-2346-4e0c-83bc-d3e4973a77c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="96654ef4-f385-4bcc-bbed-fbeda6092feb" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="b2c94833-9886-4dd4-9253-8f88acf7534f" name="전송" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="76c29c55-23e5-46f8-90d4-64de9908136c" />
+          </operation>
+          <operation Id="9b721b7a-8a0c-4e68-ae4a-2bc7d82bf9d0" name="복원" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b039b770-7bf6-4af4-afaa-4f1eb9c95707" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="a8f3b220-2546-49d3-9b79-4a8fd150b937" name="projectPasswd">
+    <elementDefinition Id="03aec5a1-c3fe-447c-9fba-f69100379009" />
+  </package>
+</logicalClassDesignerModel>

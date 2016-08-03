@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5ba51cf2-6433-4be5-a238-3fb4d7e8ebad" name="projectPasswd" linkedPackageId="95b84b0e-9e0c-4c24-9923-49fc6542d53f" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="99f92fa5-3246-4217-9973-8fa04c1cbd50">
+      <profileInstance Id="286cefc3-cd51-4de4-a304-2cd3b85a2423" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ce6c50d3-8b01-4caf-a905-4a254fb60d5b">
+      <profileInstance Id="11f88093-6fb2-4c82-b1ef-7e8b6f53c885" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="754ac4b9-4022-451f-923a-acf23d1285f7" name="휴먼계정 사용자" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4b6c8634-f443-401a-a54c-e5665b4f6766" />
+        <targetEnds>
+          <association Id="e2d087aa-a36b-4ddc-99d8-b625f7938e99" isDerived="false" sourceEndRoleName="휴먼계정 사용자" targetEndRoleName="아이디 찾기" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7e031956-3773-46a4-a8f5-a65b0bc0f2da" LastKnownName="아이디 찾기" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="45ae42d3-21e3-49bd-b881-0886d935afc4" name="휴먼계정 사용자" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="04274ee9-5a7c-4542-9981-57ba720057ac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="058984ee-4b5f-49a4-be22-e8a3d2648462" name="아이디 찾기" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6912df41-2ff1-4ae1-a897-7435ca2ecf35" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4271e5e8-bf18-423d-8a27-f19ca71d8db6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="93f3bfbf-012d-4981-a51f-570d6a762bbd" name="DB" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a582f18b-2610-468a-9785-3bef6ba6b0ed" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7e031956-3773-46a4-a8f5-a65b0bc0f2da" name="아이디 찾기" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="18624baf-c5d0-4c78-bb89-493222ec5801" />
+        <targetEnds>
+          <association Id="cdf5a3a0-8c34-4415-9ec8-20a8bb5969e0" isDerived="false" sourceEndRoleName="아이디 찾기" targetEndRoleName="사용자 검색" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fff3d019-d24c-45bc-9245-b286ad62f371" LastKnownName="사용자 검색" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5eff269-16bf-4c60-9038-5a7256d10e15" name="아이디 찾기" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8df91808-33f6-4cca-b0f6-363f161e65bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d49d7f9f-bd2d-47b5-886b-98fa23d7d857" name="사용자 검색" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e83def17-9cf4-46dc-bf92-fab78b58cf05" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="586e1858-a7ed-490a-a2cb-9e857d037de8" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fff3d019-d24c-45bc-9245-b286ad62f371" name="사용자 검색" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="413eb7ec-097c-40bf-9570-0a88e45a9938" />
+        <targetEnds>
+          <association Id="d2bdafe1-a9f0-42a2-a1b5-d99be6479119" isDerived="false" sourceEndRoleName="사용자 검색" targetEndRoleName="DB" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="93f3bfbf-012d-4981-a51f-570d6a762bbd" LastKnownName="DB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f893e56-8055-45bb-9cb8-5f780f3e9c1f" name="사용자 검색" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0eef8883-3c2b-4678-8788-50e5bd62e234" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="383892f6-66af-4af7-9158-dc384c913156" name="DB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="64fc754f-8d51-400e-bf17-9776abc488c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="86239c00-900a-4a5e-a394-c470b7919e8b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="20c1de7b-8b63-4b65-b080-fab07beef74c" name="메일 전송" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="67b6697c-e4bf-4d39-9fc2-2a535b0d8ed4" />
+        <targetEnds>
+          <association Id="c5054fb4-b623-4f03-b378-e71402ce733d" isDerived="false" sourceEndRoleName="메일 전송" targetEndRoleName="휴먼계정 사용자" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="754ac4b9-4022-451f-923a-acf23d1285f7" LastKnownName="휴먼계정 사용자" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bcc2c4ac-b5f4-4d61-aa63-602c17821bd0" name="메일 전송" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d0d95461-9a2d-48fc-b64a-565288c9c819" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a62925ef-dded-4b89-8bca-2894db278117" name="휴먼계정 사용자" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="384f49d7-e6af-40bd-ba2e-3843987e7a8b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e070e1e6-58d3-4116-8f51-c47451719f7c" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="99e9059a-f7c8-47ea-84d1-dd136dbeec23" name="비밀번호 초기화" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fbcb155f-77a6-4aff-8f81-28c9a12ca9f1" />
+        <targetEnds>
+          <association Id="d93c0595-4faf-4e5e-9fcd-8225e4624cc8" isDerived="false" sourceEndRoleName="비밀번호 초기화" targetEndRoleName="DB" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="93f3bfbf-012d-4981-a51f-570d6a762bbd" LastKnownName="DB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5a65307-17d1-40fa-b4ad-28eccb205749" name="비밀번호 초기화" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="309d7dfc-b673-4f75-845f-2dc1dff7c159" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="70a6480d-a068-4549-b0d4-f15ff5282c70" name="DB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="51dc04ac-5f32-42d8-a9cd-0fbc5586025a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="80378854-e1be-4ae3-89d8-95f41c1818ee" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="90b945d7-fe4b-40ab-a75f-dcaff81beb9a">
+            <useCaseMoniker Id="20c1de7b-8b63-4b65-b080-fab07beef74c" LastKnownName="메일 전송" />
+            <elementDefinition Id="879ee210-f441-4dba-a9cc-fcc471573853" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ca076a46-6174-4dcb-ba0f-29649d4b1e5a" name="비밀번호 복원" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="50526b3e-1dae-4bb2-936b-d5af9afa1c2e" />
+        <targetEnds>
+          <association Id="948082ef-cfac-4e91-ae5d-20fd54a242c7" isDerived="false" sourceEndRoleName="비밀번호 복원" targetEndRoleName="DB" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="93f3bfbf-012d-4981-a51f-570d6a762bbd" LastKnownName="DB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a3dc3262-1484-4581-ad0a-af68e3c9d9cd" name="비밀번호 복원" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8da8830b-ef32-4853-87c6-e156c004be19" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c6e6954-e7a4-4a22-89a6-3c32f0841ee6" name="DB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cbd145db-28bd-4129-aa98-bb2fe8a1aca2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e8260cbb-f7b5-40c3-b979-cc9c81f7c641" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="af294297-5792-4e08-8a4e-f4273e717a13">
+            <useCaseMoniker Id="20c1de7b-8b63-4b65-b080-fab07beef74c" LastKnownName="메일 전송" />
+            <elementDefinition Id="83b8246d-6b76-4738-9f83-e350116475af" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="95b84b0e-9e0c-4c24-9923-49fc6542d53f" name="projectPasswd">
+    <elementDefinition Id="03aec5a1-c3fe-447c-9fba-f69100379009" />
+  </package>
+</useCaseModelRoot>

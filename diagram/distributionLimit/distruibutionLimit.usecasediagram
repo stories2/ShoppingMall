@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7f5c5821-a5a2-46b6-8542-ce4179c5765e" name="distruibutionLimit" linkedPackageId="86505a8a-c057-4573-930f-c3d7eaf0d30d" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="6edf29bb-698a-407f-9224-3f698353bd3a">
+      <elementDefinition Id="baeba481-232f-4384-ae9e-ea05ea7a4be8" />
+      <body>쇼핑몰
+</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="10551214-ada5-4a1c-9101-1682cc72400a">
+      <profileInstance Id="c2fe6b11-9334-49e6-a353-b5c1e9919547" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="71b45834-d1d3-4f59-aaa2-9db6728b1dc6">
+      <profileInstance Id="a9c24f01-2f36-4431-8930-d7663a4f2328" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="a3dd2412-ac3b-4e2f-bd83-1371265fc305" name="손님" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e9b23a8e-748b-438c-b203-9007fce091be" />
+        <targetEnds>
+          <association Id="7a52263a-8946-489c-ba71-d837fca7a0a3" isDerived="false" sourceEndRoleName="손님" targetEndRoleName="상품 구입" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9994ab9f-e7ca-4b18-895b-7e56821cae13" LastKnownName="상품 구입" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2ac02f3a-80e4-4ca7-a929-db03487ed57f" name="손님" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f57d7060-bcf7-46ff-a55a-af9be82133ab" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="97bd0028-38f1-42c0-b52a-b0bab1e940b8" name="상품 구입" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="341528b6-3f7b-49cc-8605-2b55aee47778" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="804e7173-797f-449c-9c5c-6148b6c8fcd6" />
+          </association>
+          <association Id="ec9ed857-0a2d-4902-8296-029f1651b75b" isDerived="false" sourceEndRoleName="손님" targetEndRoleName="상품 구입" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9994ab9f-e7ca-4b18-895b-7e56821cae13" LastKnownName="상품 구입" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e1d64fe3-3d1e-4420-9709-1c689dbb353e" name="손님" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="18256191-6e11-4d4d-adbd-461a3186cc40" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58992cd6-b193-41f8-b059-903c23aa800d" name="상품 구입" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d70c8787-6d8b-4465-982f-fba7b6d4abf3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ada2e22f-f59f-4faf-a92a-0aa96b035e3c" />
+          </association>
+          <association Id="14cb0c9a-187e-425a-92d1-182251a798d0" isDerived="false" sourceEndRoleName="손님" targetEndRoleName="재고확인" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4cc7c8f0-aebc-4e8a-9ce1-8c6d720c822d" LastKnownName="재고확인" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e8c817d-be8d-44fd-9d14-7b6de3a6fb2e" name="손님" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3526e2fe-ff47-436e-a20e-101bd9f874ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be620107-d800-4b5f-bdab-262d67ebec82" name="재고확인" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="530df602-a32f-4d9d-a022-99a9ee58aa03" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6452ff99-0660-4706-81a3-85d13d202e59" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9994ab9f-e7ca-4b18-895b-7e56821cae13" name="상품 구입" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="95f22519-910f-438d-af76-f33bea0f5cdd" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="553f2d7e-bb08-480b-9ecd-42d3c79ad742" name="유통기한" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="552fd59a-c9be-4f0a-ba4a-a0f0339d666e" />
+        <additions>
+          <include Id="b9400e2f-d135-41fe-927f-eb172a820f31">
+            <useCaseMoniker Id="25d0e297-29e3-4bec-9239-cad805302839" LastKnownName="할인가" />
+            <elementDefinition Id="ee859ad6-ca6d-4ed2-b874-21adcafb10a2" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ac8f033a-1e8c-446e-ae2f-4121f80adb68" name="할인범위" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b4ef14ce-78e3-4724-a87a-1c91d1efdb6e" />
+        <additions>
+          <include Id="594455ad-3020-4ee9-8c82-ab0b5b5682fd">
+            <useCaseMoniker Id="25d0e297-29e3-4bec-9239-cad805302839" LastKnownName="할인가" />
+            <elementDefinition Id="a20c127b-4920-43a0-a46f-ebcbc38856e5" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="25d0e297-29e3-4bec-9239-cad805302839" name="할인가" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2a4847b0-3f58-4e20-972e-ebff9cd264b9" />
+        <suppliersInternal>
+          <dependency Id="30d01f9e-fb37-4d6a-beaf-bb09f2988a3a">
+            <useCaseMoniker Id="9994ab9f-e7ca-4b18-895b-7e56821cae13" LastKnownName="상품 구입" />
+            <elementDefinition Id="e1edcfae-f70e-4c8c-b75f-71134a4d9ca8" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4cc7c8f0-aebc-4e8a-9ce1-8c6d720c822d" name="재고확인" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7637bb5a-b923-4967-a5aa-a05717c98384" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="d7f7e0e0-fd08-4997-82cb-ef092c6aec9e" name="판매업자" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="56951353-8aa6-4c1c-8b85-29d6f9ed08f0" />
+        <targetEnds>
+          <association Id="b53d9f21-b649-4456-ae9c-79d8b473b430" isDerived="false" sourceEndRoleName="판매업자" targetEndRoleName="재고확인" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4cc7c8f0-aebc-4e8a-9ce1-8c6d720c822d" LastKnownName="재고확인" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a2fe166-45a6-4995-881d-7326765aa107" name="판매업자" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ff067ccc-25db-405f-b6d6-1d25729680c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="928df429-fe2a-4277-bb8b-1c09a241c16e" name="재고확인" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f6a0f705-73ff-4631-aa42-63c1223dbc10" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7a52d091-3e19-427d-a48e-5f2286ce0db0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="006bf85a-3436-4b08-8efc-40fb4a1242e5" name="구매확정" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c859121d-7316-4d4b-9c63-8af446e4e5dc" />
+        <additions>
+          <include Id="e68af814-565a-440d-9a2d-df01753af22f">
+            <useCaseMoniker Id="4cc7c8f0-aebc-4e8a-9ce1-8c6d720c822d" LastKnownName="재고확인" />
+            <elementDefinition Id="7ea0fad4-257c-429c-9a32-3210547ab4cf" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="86505a8a-c057-4573-930f-c3d7eaf0d30d" name="distributionLimit">
+    <elementDefinition Id="b90fcaa0-e385-4568-b06c-659f04fdff04" />
+  </package>
+</useCaseModelRoot>

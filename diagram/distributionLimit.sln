@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "distributionLimit", "distributionLimit\distributionLimit.modelproj", "{92F73020-4F0A-4696-89BB-4303EA1C3012}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "projectPasswd", "projectPasswd\projectPasswd.modelproj", "{013B695D-7E95-43ED-A343-80B68D82F920}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F73020-4F0A-4696-89BB-4303EA1C3012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F73020-4F0A-4696-89BB-4303EA1C3012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F73020-4F0A-4696-89BB-4303EA1C3012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F73020-4F0A-4696-89BB-4303EA1C3012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013B695D-7E95-43ED-A343-80B68D82F920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013B695D-7E95-43ED-A343-80B68D82F920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013B695D-7E95-43ED-A343-80B68D82F920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013B695D-7E95-43ED-A343-80B68D82F920}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

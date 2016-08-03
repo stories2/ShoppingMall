@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="distruibutionLimit">
+  <useCaseModelRootMoniker Id="7f5c5821-a5a2-46b6-8542-ce4179c5765e" />
+  <nestedChildShapes>
+    <actorShape Id="08457045-bcfb-4271-93a4-144240af269a" absoluteBounds="1, 1.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="a3dd2412-ac3b-4e2f-bd83-1371265fc305" LastKnownName="손님" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="af8ee66f-598c-44e4-aefe-7b2d9e2492bf" absoluteBounds="3, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9994ab9f-e7ca-4b18-895b-7e56821cae13" LastKnownName="상품 구입" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.5 : 1.95833333333333); (3.02565835097474 : 1.70405694150421)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="7a52263a-8946-489c-ba71-d837fca7a0a3" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="08457045-bcfb-4271-93a4-144240af269a" />
+        <useCaseShapeMoniker Id="af8ee66f-598c-44e4-aefe-7b2d9e2492bf" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.5 : 1.95833333333333); (3.02565835097474 : 1.70405694150421)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ec9ed857-0a2d-4902-8296-029f1651b75b" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="08457045-bcfb-4271-93a4-144240af269a" />
+        <useCaseShapeMoniker Id="af8ee66f-598c-44e4-aefe-7b2d9e2492bf" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="75b2737f-c3d7-4ac9-a7f3-29cad5f3948a" absoluteBounds="5.375, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="553f2d7e-bb08-480b-9ecd-42d3c79ad742" LastKnownName="유통기한" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="e17bcde0-0251-42b2-9769-de9f00a02a55" absoluteBounds="5.625, 2, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ac8f033a-1e8c-446e-ae2f-4121f80adb68" LastKnownName="할인범위" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="5380c1f1-024c-48be-85b1-ae6d0c17dfc9" absoluteBounds="3, 2.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="25d0e297-29e3-4bec-9239-cad805302839" LastKnownName="할인가" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5.53062526904265 : 1.8062498583986); (3.84437473095735 : 2.6937501416014)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«포함»">
+      <includeMoniker Id="b9400e2f-d135-41fe-927f-eb172a820f31" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="75b2737f-c3d7-4ac9-a7f3-29cad5f3948a" />
+        <useCaseShapeMoniker Id="5380c1f1-024c-48be-85b1-ae6d0c17dfc9" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(5.67356974058804 : 2.35748339509809); (3.95143025941197 : 2.76751660490191)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«포함»">
+      <includeMoniker Id="594455ad-3020-4ee9-8c82-ab0b5b5682fd" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e17bcde0-0251-42b2-9769-de9f00a02a55" />
+        <useCaseShapeMoniker Id="5380c1f1-024c-48be-85b1-ae6d0c17dfc9" />
+      </nodes>
+    </includeConnector>
+    <useCaseDependencyConnector edgePoints="[(3.5 : 2.625); (3.5 : 1.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="30d01f9e-fb37-4d6a-beaf-bb09f2988a3a" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="5380c1f1-024c-48be-85b1-ae6d0c17dfc9" />
+        <useCaseShapeMoniker Id="af8ee66f-598c-44e4-aefe-7b2d9e2492bf" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <commentShape Id="f4417678-d126-4bc2-ae31-3710e831d362" absoluteBounds="4.125, 0.75, 1.25, 0.5" customColor="251, 247, 200">
+      <commentMoniker Id="6edf29bb-698a-407f-9224-3f698353bd3a" />
+      <relativeChildShapes />
+    </commentShape>
+    <useCaseShape Id="c77fa2a2-782a-4881-b2ad-73a3b7fd65de" absoluteBounds="3.125, 3.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="4cc7c8f0-aebc-4e8a-9ce1-8c6d720c822d" LastKnownName="재고확인" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.5 : 2.17105263157895); (3.32999170532884 : 3.42315221943553)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="14cb0c9a-187e-425a-92d1-182251a798d0" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="08457045-bcfb-4271-93a4-144240af269a" />
+        <useCaseShapeMoniker Id="c77fa2a2-782a-4881-b2ad-73a3b7fd65de" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="6166db91-968c-43d5-a573-bedb08e1d228" absoluteBounds="8, 2, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="d7f7e0e0-fd08-4997-82cb-ef092c6aec9e" LastKnownName="판매업자" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(8 : 2.32432432432432); (4.05476794401033 : 3.49723115178071)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b53d9f21-b649-4456-ae9c-79d8b473b430" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6166db91-968c-43d5-a573-bedb08e1d228" />
+        <useCaseShapeMoniker Id="c77fa2a2-782a-4881-b2ad-73a3b7fd65de" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="6d8439bf-3321-4713-ab95-2b240be4bce8" absoluteBounds="6.375, 3, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="006bf85a-3436-4b08-8efc-40fb4a1242e5" LastKnownName="구매확정" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(6.38780440215269 : 3.30621487667469); (4.11219559784731 : 3.56878512332531)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«포함»">
+      <includeMoniker Id="e68af814-565a-440d-9a2d-df01753af22f" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="6d8439bf-3321-4713-ab95-2b240be4bce8" />
+        <useCaseShapeMoniker Id="c77fa2a2-782a-4881-b2ad-73a3b7fd65de" />
+      </nodes>
+    </includeConnector>
+    <rectangleShape Id="33ec812e-eaa0-4ece-b964-f950a7c6fa6b" absoluteBounds="2, 1.25, 5.5, 2.75" outlineColor="83, 134, 191" outlineThickness="0.03125" />
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="15e68982-33aa-468c-9190-b27a5c80e967" name="dis" linkedPackageId="4fcfba15-8e47-4d69-9f7e-6f176cd6c897" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="583a37b0-ea5f-4328-a4f7-689521044de6">
+      <profileInstance Id="bdf92029-53ca-48ff-b4b4-53f3644d767d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="25934a2f-5fe7-4425-830e-50cf61fa71bb">
+      <profileInstance Id="39caf2a7-6b67-442d-b9c9-25e0fdea6c66" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1f0f1301-8b67-4ae7-b13f-9dd8b4079081" name="주문내역" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6868cdd4-882f-4bfb-af71-0ae57f454081" />
+        <targetEnds>
+          <association Id="170d5b78-3b42-4941-85cc-ab1feef7ecbe" isDerived="false" sourceEndRoleName="주문내역" targetEndRoleName="재고 현황" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5a57407c-38fd-4bee-b2e9-2ffe49bce9df" LastKnownName="재고 현황" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="52bdcdf4-d465-4d82-96d1-8153d3b0b1b8" name="주문내역" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4318fdf3-e26b-4178-b57c-9814de7f9600" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a0d61e07-604b-4e5b-adef-bb1f77bc7b2e" name="재고 현황" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e03fe1ac-2faf-4d40-af8b-b8af9014d7d1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fa7c4d23-cd1f-44b0-ad89-88c665cf0c41" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0e812bf6-d2e3-4a6a-82da-acbb92d0fd34" name="상품 아이디" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d60e9711-f137-40b5-b444-0669c3595e6e" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="aa30c0e6-f102-421d-a934-a94b8b0838da" name="상품 추가" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6bac40f5-7963-4cbd-9951-8227c940e2d4" />
+          </operation>
+          <operation Id="3825ee93-6918-415a-87ec-c3f917fdfa79" name="상품 삭제" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b207e7c4-2068-47fa-b618-e3f7b88f4d28" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c2fb3260-b3da-40de-b820-82fca541aba8" name="상품 정보" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="19d0d585-3299-42ab-a0a3-0571b8d3ba7f" />
+        <targetEnds>
+          <association Id="4ef3466e-5598-4f27-a7ed-7b7f292c6b7c" isDerived="false" sourceEndRoleName="상품 정보" targetEndRoleName="주문내역" isLeaf="false" isAbstract="false">
+            <classMoniker Id="1f0f1301-8b67-4ae7-b13f-9dd8b4079081" LastKnownName="주문내역" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c6c66eb8-8b56-4cfc-8202-36797337f744" name="상품 정보" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="75aadc96-6b8c-467b-af67-d6106aedac36" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9b6b329a-2183-42ff-8841-7b9c522a99f4" name="주문내역" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9fdf32c4-c0a5-4912-8878-91c4e00ebf71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7e06d407-0191-47ba-8214-6fc36b4e95e3" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="07e7933a-5a59-4818-b435-fee8c1e16295" name="상품 고유 번호" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0aebb431-6f16-4478-8e4c-e7ee063cc94e" />
+          </property>
+          <property Id="9818f0b8-a31c-4bbd-9c3d-71508d3a67b8" name="유통기한" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="164f93ae-26d2-4418-bf71-9b0a8aca53a8" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f06fc7b8-06b8-48a9-8051-477829b45074" name="할인가" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8fdf03ba-2b2d-40d1-9a1e-7dec462c675e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5a57407c-38fd-4bee-b2e9-2ffe49bce9df" name="재고 현황" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="653fee72-b86d-4ae7-8f48-ec9efa71e5fd" />
+        <ownedAttributesInternal>
+          <property Id="a58dff51-7163-4c3b-b70b-88b10f1eff74" name="남은 재고량" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aff12d34-15b6-4bdf-8e50-82e19b91c0b2" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ca5e01b5-65ee-40c6-87f8-3a585a99c57e" name="폐기처분" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4c44b9f8-f87a-40e1-b9e2-933e9fee36c6" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="4fcfba15-8e47-4d69-9f7e-6f176cd6c897" name="distributionLimit">
+    <elementDefinition Id="b90fcaa0-e385-4568-b06c-659f04fdff04" />
+  </package>
+</logicalClassDesignerModel>

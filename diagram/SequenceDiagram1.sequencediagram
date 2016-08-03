@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="146d0fef-d32b-4fa9-8fa8-ad03fa18e17d" name="SequenceDiagram1" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="2721771b-1343-4364-85a9-c37c3cdf53af" name="SequenceDiagram1" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="556d220c-1d3e-4fd2-9c23-aa0884ed42e3" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="c6c9e992-55a8-4483-aef1-b74af255801c" LastKnownName="상품 뷰" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="5ff3130b-5e9a-4091-838f-3357b3cbeca7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="b7669ef4-62d7-4f1b-80d7-e138d2921581" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="bbbc2a1c-a5ae-4ab3-93b4-09cbc69ded18" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e6956794-52b2-4eec-a11e-b9c4ac493e4b" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="b7669ef4-62d7-4f1b-80d7-e138d2921581" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="bfe41e99-06d1-4b78-86f8-68c7b08c13a9" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="c6c9e992-55a8-4483-aef1-b74af255801c" LastKnownName="상품 뷰" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c3f04dc5-a13d-4ae9-891f-50235e77734c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="bbbc2a1c-a5ae-4ab3-93b4-09cbc69ded18" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c6c9e992-55a8-4483-aef1-b74af255801c" LastKnownName="상품 뷰" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="6bfedece-1789-4ef8-9004-501970d53c7b" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="01ae6283-83d4-4fcf-bbbc-716da84bea77" LastKnownName="재고 조회" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="b826e7d8-6322-4173-affb-d92b374f607e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="79e881d7-a0e7-4d72-80f0-caa6b7cba4b5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="b91d8f11-8f20-4bc1-b509-868bc273ccf7" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="160b94f5-cd88-4372-bc87-64b21e1d1f99" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="79e881d7-a0e7-4d72-80f0-caa6b7cba4b5" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5c10d568-39d5-476e-940b-cf784b3d172b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="01ae6283-83d4-4fcf-bbbc-716da84bea77" LastKnownName="재고 조회" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e6956794-52b2-4eec-a11e-b9c4ac493e4b" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c6c9e992-55a8-4483-aef1-b74af255801c" LastKnownName="상품 뷰" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b91d8f11-8f20-4bc1-b509-868bc273ccf7" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="01ae6283-83d4-4fcf-bbbc-716da84bea77" LastKnownName="재고 조회" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="c0eeee5b-53eb-4efb-9ebb-90a1fb429a31" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="0789297c-6502-4be6-80da-2937f82f2880" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6dc3f6fd-39fc-487e-b667-d6613b64feb1" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="92315c35-72a7-4269-a0c0-5284e8f2fca4" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3a012a91-1c50-43b8-8334-be85b4e40588" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="838728b0-fd1b-4ad1-8382-24cf6f0fff3f" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="d68e82f8-44aa-41c6-ba6e-4968e6c291af" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6dc3f6fd-39fc-487e-b667-d6613b64feb1" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="383f2348-fc4d-41aa-87d3-c096fd235b60" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="5ff3130b-5e9a-4091-838f-3357b3cbeca7" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="275467a4-dc9c-422b-a395-0f2e8595f8df" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="c6c9e992-55a8-4483-aef1-b74af255801c" LastKnownName="상품 뷰" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="160b94f5-cd88-4372-bc87-64b21e1d1f99" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="01ae6283-83d4-4fcf-bbbc-716da84bea77" LastKnownName="재고 조회" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="92315c35-72a7-4269-a0c0-5284e8f2fca4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="b826e7d8-6322-4173-affb-d92b374f607e" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="65086317-e522-4ec2-9d93-51032cd4c6aa" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="01ae6283-83d4-4fcf-bbbc-716da84bea77" LastKnownName="재고 조회" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="ccf6eba2-bded-4a59-8099-94d4a24a3ae5" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="24095c09-fba4-4393-ac41-42c608447968" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="55ab8cda-33f0-437d-b592-8a9b36ee7491" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="29c94fca-c811-4301-9b29-241fbbc61e8d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="64b8523e-4ee0-445e-a4cf-d031b50364ad" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="55ab8cda-33f0-437d-b592-8a9b36ee7491" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="af75f81d-4ea8-4ef1-9876-1700e0999ace" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3a012a91-1c50-43b8-8334-be85b4e40588" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="29c94fca-c811-4301-9b29-241fbbc61e8d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="64b8523e-4ee0-445e-a4cf-d031b50364ad" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="838728b0-fd1b-4ad1-8382-24cf6f0fff3f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="24095c09-fba4-4393-ac41-42c608447968" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ea95c62a-8001-4105-9084-32db11e560db" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="47ae473a-3be2-46a3-b74b-baa433513bca" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="90d0ba78-8314-40e0-ac9e-68b3f6de6d0c" LastKnownName="배송" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="459690bd-280b-408a-9c43-65a5714b19ca" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="392077a8-1b6b-4277-b6b6-dbbed7c7625e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="a161a24e-6a82-4e11-a3d2-f32781774fad" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="4b1e851b-6655-4b7a-8196-2f46bbbc79e6" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="392077a8-1b6b-4277-b6b6-dbbed7c7625e" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a10730df-c3b8-4ec3-a272-999cf5b567b8" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="90d0ba78-8314-40e0-ac9e-68b3f6de6d0c" LastKnownName="배송" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d68e82f8-44aa-41c6-ba6e-4968e6c291af" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a161a24e-6a82-4e11-a3d2-f32781774fad" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="90d0ba78-8314-40e0-ac9e-68b3f6de6d0c" LastKnownName="배송" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="0789297c-6502-4be6-80da-2937f82f2880" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="81ad1ac6-cc93-47f7-bc40-d7002b8984d5" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" LastKnownName="판매 시스템" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="54d18c8a-e4df-459e-a28b-fc0518ba5771" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="26ab6263-22b0-4575-9d48-586bf28674b3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="0d0301ba-2de8-4732-bb01-d3063d3876d7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4ecac6d3-3009-41cb-8038-ceea0ce57c51" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="0d0301ba-2de8-4732-bb01-d3063d3876d7" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5c6a6b98-c332-4074-aaa4-1971ceed19f1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4b1e851b-6655-4b7a-8196-2f46bbbc79e6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="90d0ba78-8314-40e0-ac9e-68b3f6de6d0c" LastKnownName="배송" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4ecac6d3-3009-41cb-8038-ceea0ce57c51" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="459690bd-280b-408a-9c43-65a5714b19ca" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9f7f0137-2279-4020-8732-4628f440c77d" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="90d0ba78-8314-40e0-ac9e-68b3f6de6d0c" LastKnownName="배송" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="26ab6263-22b0-4575-9d48-586bf28674b3" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e408a690-38f5-4939-9184-730e00482cf8" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d945fc98-db3f-4c89-8094-0808afc203df" LastKnownName="손님" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="d945fc98-db3f-4c89-8094-0808afc203df" name="손님" isActor="false" lifelineDisplayName="‎손님‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="c3f04dc5-a13d-4ae9-891f-50235e77734c" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="55ab8cda-33f0-437d-b592-8a9b36ee7491" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="24095c09-fba4-4393-ac41-42c608447968" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="0d0301ba-2de8-4732-bb01-d3063d3876d7" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="26ab6263-22b0-4575-9d48-586bf28674b3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="c6c9e992-55a8-4483-aef1-b74af255801c" name="상품 뷰" isActor="false" lifelineDisplayName="‎상품 뷰‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="b7669ef4-62d7-4f1b-80d7-e138d2921581" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="5ff3130b-5e9a-4091-838f-3357b3cbeca7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="01ae6283-83d4-4fcf-bbbc-716da84bea77" name="재고 조회" isActor="false" lifelineDisplayName="‎재고 조회‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="79e881d7-a0e7-4d72-80f0-caa6b7cba4b5" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b826e7d8-6322-4173-affb-d92b374f607e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="4a6d0061-28fc-4721-bd38-a0aba75eabae" name="판매 시스템" isActor="false" lifelineDisplayName="‎판매 시스템‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="6dc3f6fd-39fc-487e-b667-d6613b64feb1" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="0789297c-6502-4be6-80da-2937f82f2880" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="90d0ba78-8314-40e0-ac9e-68b3f6de6d0c" name="배송" isActor="false" lifelineDisplayName="‎배송‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="392077a8-1b6b-4277-b6b6-dbbed7c7625e" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="459690bd-280b-408a-9c43-65a5714b19ca" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="580e6b2c-9046-4086-af2f-b013c43e8116" name="상품 선택" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c3f04dc5-a13d-4ae9-891f-50235e77734c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="bbbc2a1c-a5ae-4ab3-93b4-09cbc69ded18" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="6fb86bf4-eba7-43d6-aa1d-4672ea94979c" name="유통기한 확인" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e6956794-52b2-4eec-a11e-b9c4ac493e4b" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b91d8f11-8f20-4bc1-b509-868bc273ccf7" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ecfa84e0-66d0-42c2-b092-bf2310719e31" name="할인가 책정" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="160b94f5-cd88-4372-bc87-64b21e1d1f99" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="92315c35-72a7-4269-a0c0-5284e8f2fca4" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="b775d68a-be09-45ff-86fd-f62424b63144" name="구매 확인 요청" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3a012a91-1c50-43b8-8334-be85b4e40588" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="29c94fca-c811-4301-9b29-241fbbc61e8d" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="2d875907-7cc5-4196-b81c-cb2e393cf1d3" name="구매 승인" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="64b8523e-4ee0-445e-a4cf-d031b50364ad" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="838728b0-fd1b-4ad1-8382-24cf6f0fff3f" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="439eb12e-8de8-4ff0-afa1-9c85663c03ee" name="구매 처리" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d68e82f8-44aa-41c6-ba6e-4968e6c291af" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a161a24e-6a82-4e11-a3d2-f32781774fad" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="0a4f02d3-b17e-4f74-bb24-39c3ae211ff3" name="배송 완료" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="4b1e851b-6655-4b7a-8196-2f46bbbc79e6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4ecac6d3-3009-41cb-8038-ceea0ce57c51" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="bfe41e99-06d1-4b78-86f8-68c7b08c13a9" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="275467a4-dc9c-422b-a395-0f2e8595f8df" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5c10d568-39d5-476e-940b-cf784b3d172b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="65086317-e522-4ec2-9d93-51032cd4c6aa" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="383f2348-fc4d-41aa-87d3-c096fd235b60" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="81ad1ac6-cc93-47f7-bc40-d7002b8984d5" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="af75f81d-4ea8-4ef1-9876-1700e0999ace" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ea95c62a-8001-4105-9084-32db11e560db" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a10730df-c3b8-4ec3-a272-999cf5b567b8" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9f7f0137-2279-4020-8732-4628f440c77d" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5c6a6b98-c332-4074-aaa4-1971ceed19f1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e408a690-38f5-4939-9184-730e00482cf8" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

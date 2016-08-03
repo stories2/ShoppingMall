@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="projectPasswd">
+  <useCaseModelRootMoniker Id="5ba51cf2-6433-4be5-a238-3fb4d7e8ebad" />
+  <nestedChildShapes>
+    <actorShape Id="3baa29d5-6869-4e67-81db-9ad17e058e80" absoluteBounds="0.75, 2.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="754ac4b9-4022-451f-923a-acf23d1285f7" LastKnownName="휴먼계정 사용자" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="068ea702-1973-46da-b1be-067c6969a3cb" absoluteBounds="7.625, 2.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="93f3bfbf-012d-4981-a51f-570d6a762bbd" LastKnownName="DB" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="933e8011-8868-41b3-8873-4c525e7e1e99" absoluteBounds="2.75, 1.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7e031956-3773-46a4-a8f5-a65b0bc0f2da" LastKnownName="아이디 찾기" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 2.38888888888889); (2.87629534065817 : 1.66609095970748)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e2d087aa-a36b-4ddc-99d8-b625f7938e99" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="3baa29d5-6869-4e67-81db-9ad17e058e80" />
+        <useCaseShapeMoniker Id="933e8011-8868-41b3-8873-4c525e7e1e99" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="208b5fc6-3e3b-4b45-9ee8-3f5710fd5602" absoluteBounds="5.625, 1.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="fff3d019-d24c-45bc-9245-b286ad62f371" LastKnownName="사용자 검색" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.50462830118265 : 2.03769784336399); (7.625 : 2.51785714285714)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="d2bdafe1-a9f0-42a2-a1b5-d99be6479119" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="208b5fc6-3e3b-4b45-9ee8-3f5710fd5602" />
+        <actorShapeMoniker Id="068ea702-1973-46da-b1be-067c6969a3cb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(3.73380863619842 : 1.56310547428675); (5.64119136380158 : 1.81189452571325)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="cdf5a3a0-8c34-4415-9ec8-20a8bb5969e0" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="933e8011-8868-41b3-8873-4c525e7e1e99" />
+        <useCaseShapeMoniker Id="208b5fc6-3e3b-4b45-9ee8-3f5710fd5602" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="8bfe7bc3-87ed-4b9b-a81b-a2f1442ef796" absoluteBounds="2.875, 2.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="20c1de7b-8b63-4b65-b080-fab07beef74c" LastKnownName="메일 전송" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.91418231243097 : 2.90298574998547); (1.25 : 2.55263157894737)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c5054fb4-b623-4f03-b378-e71402ce733d" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="8bfe7bc3-87ed-4b9b-a81b-a2f1442ef796" />
+        <actorShapeMoniker Id="3baa29d5-6869-4e67-81db-9ad17e058e80" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="e082f8ba-82e4-4da5-8fba-b602f2c60c88" absoluteBounds="5.25, 2.25, 1.25, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="99e9059a-f7c8-47ea-84d1-dd136dbeec23" LastKnownName="비밀번호 초기화" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.5 : 2.625); (7.625 : 2.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="d93c0595-4faf-4e5e-9fcd-8225e4624cc8" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e082f8ba-82e4-4da5-8fba-b602f2c60c88" />
+        <actorShapeMoniker Id="068ea702-1973-46da-b1be-067c6969a3cb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <includeConnector edgePoints="[(5.26866093740917 : 2.71595085938862); (3.85391314261058 : 2.92816302860841)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«포함»">
+      <includeMoniker Id="90b945d7-fe4b-40ab-a75f-dcaff81beb9a" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e082f8ba-82e4-4da5-8fba-b602f2c60c88" />
+        <useCaseShapeMoniker Id="8bfe7bc3-87ed-4b9b-a81b-a2f1442ef796" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="de9180d8-94f6-4c15-b5c6-321a30ff231c" absoluteBounds="5.375, 3.375, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ca076a46-6174-4dcb-ba0f-29649d4b1e5a" LastKnownName="비밀번호 복원" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.54150547083662 : 3.49866882945187); (7.625 : 2.78879310344828)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="948082ef-cfac-4e91-ae5d-20fd54a242c7" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="de9180d8-94f6-4c15-b5c6-321a30ff231c" />
+        <actorShapeMoniker Id="068ea702-1973-46da-b1be-067c6969a3cb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <includeConnector edgePoints="[(5.44151670610679 : 3.62476086463694); (3.8028659917903 : 3.1293548347273)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«포함»">
+      <includeMoniker Id="af294297-5792-4e08-8a4e-f4273e717a13" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="de9180d8-94f6-4c15-b5c6-321a30ff231c" />
+        <useCaseShapeMoniker Id="8bfe7bc3-87ed-4b9b-a81b-a2f1442ef796" />
+      </nodes>
+    </includeConnector>
+    <rectangleShape Id="c2034617-79e9-4471-a906-8a064aef8b46" absoluteBounds="1.625, 1, 5.75, 3.25" outlineColor="83, 134, 191" outlineThickness="0.03125" />
+  </nestedChildShapes>
+</useCaseDiagram>
