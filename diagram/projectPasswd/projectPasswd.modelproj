@@ -29,6 +29,13 @@
       <SubType>Content</SubType>
       <DependentUpon>projectPasswd.classdiagram</DependentUpon>
     </Content>
+    <Content Include="projectPasswd.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="projectPasswd.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>projectPasswd.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="projectPasswd.usecasediagram">
       <SubType>Content</SubType>
     </Content>
